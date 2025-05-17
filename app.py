@@ -1,6 +1,4 @@
-git init
-git add .
-git commit -m "Primeiro commit"
-git branch -M main
-git remote add origin https://github.com/Tarciof2025/sistema_remocoes.git
-git push -u origin main
+import streamlit as st
+
+st.title("Sistema de Remoções")
+st.write("Olá! Esse é um exemplo simples de app com Streamlit.")
